@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 def group_decision():
-    data = request.get_json("data", [])
+    data = request.get_json()
 
     results = {}
 
