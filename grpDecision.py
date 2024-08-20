@@ -18,7 +18,7 @@ def group_decision():
         num_val = [float(i) for i in values if isinstance(i, (int, float))]
         if num_val:
             avg = np.mean(num_val)
-            results[column] = avg
+            results[column] = f"{avg:.6f}"
     return jsonify(results)
 
 if __name__ == '__main__':
