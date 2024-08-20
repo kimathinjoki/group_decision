@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 
 import numpy as np
 
+import os
+
 app = Flask(__name__)
 
 @app.route('/group_decision', methods=['POST'])
