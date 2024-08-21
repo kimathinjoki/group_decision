@@ -1,8 +1,3 @@
 flask
 numpy
 gunicorn
-numpyro
-pandas
-jax
-scipy
-scikit-learn
